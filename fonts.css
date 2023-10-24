@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'IBM Plex Serif';
+    src:
+      url(https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff2)
+        format('woff2'),
+      url(https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff)
+        format('woff'),
+      url(https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.ttf)
+        format('truetype');
+      font-weight: bold;
+    /* Добавьте этому шрифту начертания bold */
+  }
+  
+  /* 
+  Добавьте три файла шрифта в Ubuntu в разных форматах
+        https://pictures.s3.yandex.net/fonts/ubuntu.woff2,
+        https://pictures.s3.yandex.net/fonts/ubuntu.woff,
+        https://pictures.s3.yandex.net/fonts/ubuntu.ttf;
+  */
+  
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: normal;
+    src: 
+      url(https://pictures.s3.yandex.net/fonts/ubuntu.woff2)
+        format('woff2'),
+      url(https://pictures.s3.yandex.net/fonts/ubuntu.woff)
+        format('woff'),
+      url(https://pictures.s3.yandex.net/fonts/ubuntu.ttf)
+        format('ttf');    
+  }
+  
+  @font-face {
+    font-family: 'Istok Web';
+    src:
+      url(https://pictures.s3.yandex.net/fonts/istokregular.woff2)
+        format('woff2'),
+      url(https://pictures.s3.yandex.net/fonts/istokregular.woff) format('woff'),
+      url(https://pictures.s3.yandex.net/fonts/istokregular.ttf)
+        format('truetype');
+  
+    /* Этот шрифт называется 'Istok Web' */
+    font-weight: normal;
+  }
+  
